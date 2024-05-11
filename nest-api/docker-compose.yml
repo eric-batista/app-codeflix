@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: app-nest-api-service-typescript
+    build: .
+    volumes:
+      - .:/home/node/app
